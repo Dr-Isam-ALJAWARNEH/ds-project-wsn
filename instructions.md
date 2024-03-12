@@ -8,4 +8,17 @@
 2. [ ] reference papers include:
     > [1. WSN AQ monitoring](https://inria.hal.science/hal-01392863) 
 
-3. [ ] 
+3. [ ] start by performing Exploratory Data Analytics (EDA) for the data
+    > for example
+        - historgrams to study the distribution of data (you have three sensors)
+        - ```Kernel Density (univariate, aspatial)```
+        - get insights from the following:
+    - [02_geovisualization](https://darribas.org/gds_scipy16/ipynb_md/02_geovisualization.html)
+    - [Exploratory Spatial Data Analysis (ESDA)](https://darribas.org/gds_scipy16/ipynb_md/04_esda.html)
+    - [NYC Data](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter02/NYC%20Data.ipynb)
+    - [Performing Spatial operations like a Pro](https://github.com/PacktPublishing/Geospatial-Data-Science-Quick-Start-Guide/blob/master/Chapter03/Chapter3.ipynb) such as ```Spatial join```
+
+4. [ ] imagine dividing your data into snapshots (time-based, being it week month day depending on our EDA)
+    - Run the ILP (Integer Linear Programming) for each snapshot individually, this will result in optimal location(s) at this specific time interval (depends on our division, day month etc.,) of each sensor so that it covers most of the space we have
+    - We store those in a file (csv, geojson) containing for each row: sensorID, time (day, month), longitude, latitude, 
+    - From this we can draw trajectory of ```best deployment locations``` of each sensor over time 
