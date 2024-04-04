@@ -1,5 +1,15 @@
 # instructions
 ## follow the following instructions
+----------
+NEW! April 4, 2024
+
+TODO:
+- explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
+- explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
+    - store the data subsets in a folder in your repository on a .csv format!
+
+----------------
+
 1. [ ] run the example starting code and familiarize yourself with some geosaptial processing techniques, including:
     - sampling
     - spatial join
