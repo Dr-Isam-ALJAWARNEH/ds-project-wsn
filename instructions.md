@@ -4,7 +4,7 @@
 NEW! April 4, 2024
 
 TODO:
--  **ATTENTION!!!** You are getting `Status: Infeasible` when you run the code below, check why?!!!, we should get `Status: optimal` instead. You should get one location for each sensor at each hour!
+-  **ATTENTION!!!** You are getting `Status: Infeasible` when you run the code below, check why?!!!, we should get `Status: optimal` instead. You should get one location for each sensor at each hour! Check notebook for more details!!!
 - explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
 - explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
     - store the data subsets in a folder in your repository on a .csv format!
