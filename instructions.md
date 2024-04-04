@@ -4,9 +4,13 @@
 NEW! April 4, 2024
 
 TODO:
+-  **ATTENTION!!!** You are getting `Status: Infeasible` when you run the code below, check why?!!!, we should get `Status: optimal` instead. You should get one location for each sensor at each hour!
 - explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
 - explain in details, every single piece of code you applied here from pulp in the context of your data, what does it mean exactly, what does each dictionary, array mean for your data?!
     - store the data subsets in a folder in your repository on a .csv format!
+
+  - take the optimal locations of sensors in each hour, then draw a trajectory of all the hours of the day where each sensor should move. Since you have three sensors, this will result in three trajectories on the map
+    - you need to calculate the coordinates (longitude, latitude) for each optimal location of the sensors in each hour, then convert the list into .csv file, then for each sensor, construct a linestring which represents the trajectory of that sensor, then store all those trajectories in a geojson file of linestrings, then display on an interactive map (showing the sensors moving in different directions from hour to next hour)!
 
 ----------------
 
